@@ -1,0 +1,31 @@
+{
+  "name": "skyflix-backend",
+  "version": "1.0.0",
+  "description": "A REST API for skyflix project",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saddeg21/skyflix-backend.git"
+  },
+  "author": "saddeg21",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saddeg21/skyflix-backend/issues"
+  },
+  "homepage": "https://github.com/saddeg21/skyflix-backend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.2",
+    "mongoose-paginate-v2": "^1.7.1",
+    "nodemon": "^2.0.20",
+    "slugify": "^1.6.5",
+    "validator": "^13.7.0"
+  }
+}

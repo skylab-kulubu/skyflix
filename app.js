@@ -1,6 +1,10 @@
 const errorHandler = require("./middleware/errorHandler");
 const notFound = require("./middleware/not-found");
 const express = require("express");
+const events = require("./scripts/events");
+
+events();
+
 const app = express();
 
 //ROUTE IMPORTS//

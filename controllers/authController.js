@@ -128,7 +128,7 @@ exports.forgotPassword = asyncWrapper(async (req, res, next) => {
         eventEmitter.emit("send_email", {
             to: email,
             subject: "Şifre Yenileme",
-            html: `https://localhost:8800/${passwordResetToken}`
+            html: `token: ${passwordResetToken}`
         });
         res.status(200).json({ status: "success", data: "email recieved" })
     } catch (e) {
